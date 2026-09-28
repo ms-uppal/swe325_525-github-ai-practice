@@ -326,3 +326,35 @@ Would you like help implementing any of these safeguards?
 At least one prompt must ask for an explanation, one must ask for a proposed improvement, and one must
 ask for a review or checklist. You may accept, revise, or reject the suggestions; you remain responsible for the final repository content.
 
+
+
+
+
+1. Which GitHub action or object was most useful to you, and why?
+>>>Holistic Change Visibility The comparison shows all commits, files changed, and diffs between main and your feature/github-ai-workflow branch in one place. You didn't have to search through individual commit logs or file histories separately—everything is aggregated.
+
+2. Which AI suggestion did you accept, and what made it useful?
+>>>The Accepted Suggestion: PR Description Checklist (AI Interaction 3)
+What it was: A structured 6-section template for writing complete pull request descriptions, including:
+
+Title — clear, descriptive, following conventions
+Description Structure — What/Why/How format
+Testing — coverage and edge cases
+Scope & Files — affected areas
+Metadata & Labels — assignees, reviewers, labels
+Deployment Notes — migrations, rollback plans
+
+3. Which AI suggestion did you revise or reject, and why?
+>>>1. AI Interaction 2: README Improvements — REJECTED (Implied)
+What was suggested: The AI provided a comprehensive revised README with:
+
+Clear project purpose and scope
+Learning objectives listed
+Better structure with sections
+Professional description
+
+4. What did you verify yourself instead of trusting the AI?
+>>>The main branch (base) only has 2 commits: "Initial commit" and "Expand README with GitHub and AI workflow details"
+
+5. What would you change in your GitHub workflow next time?
+>>>Next time: Finish writing files before creating the branch. When you open a PR, reviewers should see complete, polished work—not stubs. The PR comparison view revealed this gap, but only because files weren't ready.
